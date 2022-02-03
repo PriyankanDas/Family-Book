@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: aqua;
+}
+
+center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+h4 {
+   font-size: 30px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 4px black;
+    transition: transform 100ms ease;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.05);
+    transition: all 100ms ease;
+    cursor: pointer;
+}
+
+img:active {
+    transform: scale(1);
+    box-shadow: none;
+}
